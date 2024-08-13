@@ -18,8 +18,8 @@ Steps:
 
 Example requests:
 
-- POST: http://127.0.0.1:8000/weather?city=paris&day=2023-01-01
-- Once this has been run, trying GET: http://127.0.0.1:8000/weather?city=paris&day=2023-01-01 should return the expected data.
+- POST: `curl -X POST "http://127.0.0.1:8000/weather?city=paris&day=2023-01-01"`
+- Once this has been run, trying GET: `curl -X GET "http://127.0.0.1:8000/weather?city=paris&day=2023-01-01"` should return the expected data.
 
 
 

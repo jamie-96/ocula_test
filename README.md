@@ -37,3 +37,4 @@ Thoughts/TODO
 - Decided not to do a proper database to save some time, instead just using local sqlite. I've named the test db differently to stop it interacting, but ideally this would be a completely separate instance.
 - Having the API_KEY in code/baked into the docker image isn't good, but I didn't end up having time to deploy this and use proper secret management in the cloud.
 - I had looked at using Github actions to build the docker image, but since I can't deploy I thought it wouldn't be necessary, so just added linting and testing
+- I've added docstrings to response models so that we can see explanations on autocreated openapi/wagger docs

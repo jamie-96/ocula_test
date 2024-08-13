@@ -2,7 +2,7 @@ from datetime import date
 
 from fastapi import FastAPI
 from starlette import status
-from starlette.responses import Response, JSONResponse
+from starlette.responses import JSONResponse, Response
 
 from app.domain.db import DB, Weather
 from app.domain.errors import MissingCityData, OpenweatherAPIError

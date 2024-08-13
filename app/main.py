@@ -66,9 +66,3 @@ async def get_weather_data(city: str, day: date):
         },
         status_code=status.HTTP_200_OK,
     )
-
-
-if __name__ == "__main__":
-    import uvicorn
-
-    uvicorn.run(app, host="127.0.0.1", port=8000)

@@ -21,3 +21,6 @@ jobs:
     - name: Lint code
       run: |
         black --check .
+    - name: Test code
+      run: |
+        pytest .

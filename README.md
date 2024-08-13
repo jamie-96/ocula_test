@@ -36,4 +36,4 @@ Thoughts/TODO
 - Could have used basic fastapi dependancy overrides for testdb, maybe should have, since now I'm patching every test which uses the db
 - Decided not to do a proper database to save some time, instead just using local sqlite. I've named the test db differently to stop it interacting, but ideally this would be a completely separate instance.
 - Having the API_KEY in code/baked into the docker image isn't good, but I didn't end up having time to deploy this and use proper secret management in the cloud.
-- I had looked at using Github actions to build the docker image, but since I can't deploy I thought it wouldn't be necessary. I haven't used github actions before but I'm familiar with gitlab/bitbucket pipelines and I'm sure it's similar.
+- I had looked at using Github actions to build the docker image, but since I can't deploy I thought it wouldn't be necessary, so just added linting and testing
